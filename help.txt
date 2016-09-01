@@ -1,0 +1,11 @@
+READ file.txt = Execute series of commands from a file. Location is relative to the source code
+PLACE X,Y,F = To change location (X= x-axis, Y= y-axis) and direction(F)
+MOVE = Advance 1 Step ahead
+REPORT = Show current location
+LEFT = Rotate the robot direction by 90deg left
+RIGHT = Rotate the robot direction by 90deg right
+QUIT = End session
+
+Restrictions.
+1. First command could be PLACE. READ and QUIT is also available but others are disabled
+2. If gonna use the READ command first line in the command must be PLACE.
